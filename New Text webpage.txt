@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+            color: #000;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section-title {
+            color: #d11a2a;
+            border-bottom: 2px solid #000;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .biography, .skills, .projects, .blog, .contact, .social {
+            margin-bottom: 40px;
+        }
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .skills-list, .projects-list, .blog-list, .social-list {
+            list-style: none;
+            padding: 0;
+        }
+        .skills-list li, .projects-list li, .blog-list li, .social-list li {
+            background-color: #f4f4f4;
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form input, .contact-form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        .contact-form button {
+            padding: 10px;
+            background-color: #d11a2a;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+        .contact-form button:hover {
+            background-color: #a61721;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+    </header>
+    <nav>
+        <a href="#biography">Biography</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Contact</a>
+        <a href="#social">Social Media</a>
+    </nav>
+    <div class="container">
+        <section id="biography" class="biography">
+            <h2 class="section-title">Biography/About Me</h2>
+            <p>Hello! I am [Your Name], a passionate [Your Profession] with a strong background in [Your Field]. I enjoy [a few interests or hobbies]. My goal is to [your professional goal].</p>
+        </section>
+        <section id="skills" class="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul class="skills-list">
+                <li>Skill 1</li>
+                <li>Skill 2</li>
+                <li>Skill 3</li>
+                <li>Skill 4</li>
+                <li>Skill 5</li>
+            </ul>
+        </section>
+        <section id="projects" class="projects">
+            <h2 class="section-title">Projects</h2>
+            <ul class="projects-list">
+                <li>Project 1 - Description</li>
+                <li>Project 2 - Description</li>
+                <li>Project 3 - Description</li>
+                <li>Project 4 - Description</li>
+                <li>Project 5 - Description</li>
+            </ul>
+        </section>
+        <section id="blog" class="blog">
+            <h2 class="section-title">Blog Posts</h2>
+            <ul class="blog-list">
+                <li>Blog Post 1 - Summary</li>
+                <li>Blog Post 2 - Summary</li>
+                <li>Blog Post 3 - Summary</li>
+                <li>Blog Post 4 - Summary</li>
+                <li>Blog Post 5 - Summary</li>
+            </ul>
+        </section>
+        <section id="contact" class="contact">
+            <h2 class="section-title">Contact Information</h2>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+        <section id="social" class="social">
+            <h2 class="section-title">Social Media Links</h2>
+            <ul class="social-list">
+                <li><a href="https://www.facebook.com/yourprofile" target="_blank">Facebook</a></li>
+                <li><a href="https://www.twitter.com/yourprofile" target="_blank">Twitter</a></li>
+                <li><a href="https://www.linkedin.com/in/yourprofile" target="_blank">LinkedIn</a></li>
+                <li><a href="https://www.instagram.com/yourprofile" target="_blank">Instagram</a></li>
+                <li><a href="https://www.github.com/yourprofile" target="_blank">GitHub</a></li>
+            </ul>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+    </footer>
+</body>
+</html>
